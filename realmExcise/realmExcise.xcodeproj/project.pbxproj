@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31CDCCAF1DEE6A9F00762BC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CDCCAE1DEE6A9F00762BC3 /* main.m */; };
+		31CDCCB21DEE6A9F00762BC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CDCCB11DEE6A9F00762BC3 /* AppDelegate.m */; };
+		31CDCCB51DEE6A9F00762BC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CDCCB41DEE6A9F00762BC3 /* ViewController.m */; };
+		31CDCCB81DEE6A9F00762BC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31CDCCB61DEE6A9F00762BC3 /* Main.storyboard */; };
+		31CDCCBA1DEE6A9F00762BC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31CDCCB91DEE6A9F00762BC3 /* Assets.xcassets */; };
+		31CDCCBD1DEE6A9F00762BC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31CDCCBB1DEE6A9F00762BC3 /* LaunchScreen.storyboard */; };
+		31CDCCC81DEE6A9F00762BC3 /* realmExciseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CDCCC71DEE6A9F00762BC3 /* realmExciseTests.m */; };
+		31CDCCD31DEE6A9F00762BC3 /* realmExciseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CDCCD21DEE6A9F00762BC3 /* realmExciseUITests.m */; };
+		31CDCCE21DEE7DE800762BC3 /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CDCCE11DEE7DE800762BC3 /* PersonModel.m */; };
+		31CDCCE81DEEC71C00762BC3 /* manModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CDCCE71DEEC71C00762BC3 /* manModel.m */; };
+		4C2C61D61FA9C99D0027D307 /* DataBaseTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2C61D41FA9C99D0027D307 /* DataBaseTool.m */; };
+		7D79A6A5AA8B17248148B1E3 /* libPods-realmExcise.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A66C210B867244047E325CCA /* libPods-realmExcise.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31CDCCC41DEE6A9F00762BC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31CDCCA21DEE6A9F00762BC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31CDCCA91DEE6A9F00762BC3;
+			remoteInfo = realmExcise;
+		};
+		31CDCCCF1DEE6A9F00762BC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31CDCCA21DEE6A9F00762BC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31CDCCA91DEE6A9F00762BC3;
+			remoteInfo = realmExcise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31CDCCAA1DEE6A9F00762BC3 /* realmExcise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = realmExcise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31CDCCAE1DEE6A9F00762BC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31CDCCB01DEE6A9F00762BC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31CDCCB11DEE6A9F00762BC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31CDCCB31DEE6A9F00762BC3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		31CDCCB41DEE6A9F00762BC3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		31CDCCB71DEE6A9F00762BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31CDCCB91DEE6A9F00762BC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31CDCCBC1DEE6A9F00762BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31CDCCBE1DEE6A9F00762BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31CDCCC31DEE6A9F00762BC3 /* realmExciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = realmExciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31CDCCC71DEE6A9F00762BC3 /* realmExciseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = realmExciseTests.m; sourceTree = "<group>"; };
+		31CDCCC91DEE6A9F00762BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31CDCCCE1DEE6A9F00762BC3 /* realmExciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = realmExciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31CDCCD21DEE6A9F00762BC3 /* realmExciseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = realmExciseUITests.m; sourceTree = "<group>"; };
+		31CDCCD41DEE6A9F00762BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31CDCCE01DEE7DE800762BC3 /* PersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonModel.h; sourceTree = "<group>"; };
+		31CDCCE11DEE7DE800762BC3 /* PersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonModel.m; sourceTree = "<group>"; };
+		31CDCCE61DEEC71C00762BC3 /* manModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = manModel.h; sourceTree = "<group>"; };
+		31CDCCE71DEEC71C00762BC3 /* manModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = manModel.m; sourceTree = "<group>"; };
+		4C2C61D41FA9C99D0027D307 /* DataBaseTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataBaseTool.m; sourceTree = "<group>"; };
+		4C2C61D51FA9C99D0027D307 /* DataBaseTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataBaseTool.h; sourceTree = "<group>"; };
+		937242B270D55934D5B798ED /* Pods-realmExcise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realmExcise.release.xcconfig"; path = "Pods/Target Support Files/Pods-realmExcise/Pods-realmExcise.release.xcconfig"; sourceTree = "<group>"; };
+		A12135911C002F19B6C6EE50 /* Pods-realmExcise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realmExcise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-realmExcise/Pods-realmExcise.debug.xcconfig"; sourceTree = "<group>"; };
+		A66C210B867244047E325CCA /* libPods-realmExcise.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-realmExcise.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31CDCCA71DEE6A9F00762BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D79A6A5AA8B17248148B1E3 /* libPods-realmExcise.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31CDCCC01DEE6A9F00762BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31CDCCCB1DEE6A9F00762BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31CDCCA11DEE6A9F00762BC3 = {
+			isa = PBXGroup;
+			children = (
+				31CDCCAC1DEE6A9F00762BC3 /* realmExcise */,
+				31CDCCC61DEE6A9F00762BC3 /* realmExciseTests */,
+				31CDCCD11DEE6A9F00762BC3 /* realmExciseUITests */,
+				31CDCCAB1DEE6A9F00762BC3 /* Products */,
+				9F3F3FF2F0AD2D59EA642675 /* Pods */,
+				5E89803FDC418B22AEE848CE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		31CDCCAB1DEE6A9F00762BC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31CDCCAA1DEE6A9F00762BC3 /* realmExcise.app */,
+				31CDCCC31DEE6A9F00762BC3 /* realmExciseTests.xctest */,
+				31CDCCCE1DEE6A9F00762BC3 /* realmExciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31CDCCAC1DEE6A9F00762BC3 /* realmExcise */ = {
+			isa = PBXGroup;
+			children = (
+				31CDCCB01DEE6A9F00762BC3 /* AppDelegate.h */,
+				31CDCCB11DEE6A9F00762BC3 /* AppDelegate.m */,
+				31CDCCB31DEE6A9F00762BC3 /* ViewController.h */,
+				31CDCCB41DEE6A9F00762BC3 /* ViewController.m */,
+				31CDCCE01DEE7DE800762BC3 /* PersonModel.h */,
+				31CDCCE11DEE7DE800762BC3 /* PersonModel.m */,
+				31CDCCE61DEEC71C00762BC3 /* manModel.h */,
+				31CDCCE71DEEC71C00762BC3 /* manModel.m */,
+				4C2C61D51FA9C99D0027D307 /* DataBaseTool.h */,
+				4C2C61D41FA9C99D0027D307 /* DataBaseTool.m */,
+				31CDCCB61DEE6A9F00762BC3 /* Main.storyboard */,
+				31CDCCB91DEE6A9F00762BC3 /* Assets.xcassets */,
+				31CDCCBB1DEE6A9F00762BC3 /* LaunchScreen.storyboard */,
+				31CDCCBE1DEE6A9F00762BC3 /* Info.plist */,
+				31CDCCAD1DEE6A9F00762BC3 /* Supporting Files */,
+			);
+			path = realmExcise;
+			sourceTree = "<group>";
+		};
+		31CDCCAD1DEE6A9F00762BC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31CDCCAE1DEE6A9F00762BC3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31CDCCC61DEE6A9F00762BC3 /* realmExciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				31CDCCC71DEE6A9F00762BC3 /* realmExciseTests.m */,
+				31CDCCC91DEE6A9F00762BC3 /* Info.plist */,
+			);
+			path = realmExciseTests;
+			sourceTree = "<group>";
+		};
+		31CDCCD11DEE6A9F00762BC3 /* realmExciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31CDCCD21DEE6A9F00762BC3 /* realmExciseUITests.m */,
+				31CDCCD41DEE6A9F00762BC3 /* Info.plist */,
+			);
+			path = realmExciseUITests;
+			sourceTree = "<group>";
+		};
+		5E89803FDC418B22AEE848CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A66C210B867244047E325CCA /* libPods-realmExcise.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F3F3FF2F0AD2D59EA642675 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A12135911C002F19B6C6EE50 /* Pods-realmExcise.debug.xcconfig */,
+				937242B270D55934D5B798ED /* Pods-realmExcise.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31CDCCA91DEE6A9F00762BC3 /* realmExcise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31CDCCD71DEE6A9F00762BC3 /* Build configuration list for PBXNativeTarget "realmExcise" */;
+			buildPhases = (
+				B91FA3E021E2864C0229863F /* [CP] Check Pods Manifest.lock */,
+				31CDCCA61DEE6A9F00762BC3 /* Sources */,
+				31CDCCA71DEE6A9F00762BC3 /* Frameworks */,
+				31CDCCA81DEE6A9F00762BC3 /* Resources */,
+				6271129863EE2A3D3ED90D1C /* [CP] Embed Pods Frameworks */,
+				77B07CD5C40E55696ED38FC4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = realmExcise;
+			productName = realmExcise;
+			productReference = 31CDCCAA1DEE6A9F00762BC3 /* realmExcise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31CDCCC21DEE6A9F00762BC3 /* realmExciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31CDCCDA1DEE6A9F00762BC3 /* Build configuration list for PBXNativeTarget "realmExciseTests" */;
+			buildPhases = (
+				31CDCCBF1DEE6A9F00762BC3 /* Sources */,
+				31CDCCC01DEE6A9F00762BC3 /* Frameworks */,
+				31CDCCC11DEE6A9F00762BC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31CDCCC51DEE6A9F00762BC3 /* PBXTargetDependency */,
+			);
+			name = realmExciseTests;
+			productName = realmExciseTests;
+			productReference = 31CDCCC31DEE6A9F00762BC3 /* realmExciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31CDCCCD1DEE6A9F00762BC3 /* realmExciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31CDCCDD1DEE6A9F00762BC3 /* Build configuration list for PBXNativeTarget "realmExciseUITests" */;
+			buildPhases = (
+				31CDCCCA1DEE6A9F00762BC3 /* Sources */,
+				31CDCCCB1DEE6A9F00762BC3 /* Frameworks */,
+				31CDCCCC1DEE6A9F00762BC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31CDCCD01DEE6A9F00762BC3 /* PBXTargetDependency */,
+			);
+			name = realmExciseUITests;
+			productName = realmExciseUITests;
+			productReference = 31CDCCCE1DEE6A9F00762BC3 /* realmExciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31CDCCA21DEE6A9F00762BC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "王志杰";
+				TargetAttributes = {
+					31CDCCA91DEE6A9F00762BC3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7R27LC3TJ9;
+						ProvisioningStyle = Automatic;
+					};
+					31CDCCC21DEE6A9F00762BC3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7R27LC3TJ9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31CDCCA91DEE6A9F00762BC3;
+					};
+					31CDCCCD1DEE6A9F00762BC3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7R27LC3TJ9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31CDCCA91DEE6A9F00762BC3;
+					};
+				};
+			};
+			buildConfigurationList = 31CDCCA51DEE6A9F00762BC3 /* Build configuration list for PBXProject "realmExcise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31CDCCA11DEE6A9F00762BC3;
+			productRefGroup = 31CDCCAB1DEE6A9F00762BC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31CDCCA91DEE6A9F00762BC3 /* realmExcise */,
+				31CDCCC21DEE6A9F00762BC3 /* realmExciseTests */,
+				31CDCCCD1DEE6A9F00762BC3 /* realmExciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31CDCCA81DEE6A9F00762BC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31CDCCBD1DEE6A9F00762BC3 /* LaunchScreen.storyboard in Resources */,
+				31CDCCBA1DEE6A9F00762BC3 /* Assets.xcassets in Resources */,
+				31CDCCB81DEE6A9F00762BC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31CDCCC11DEE6A9F00762BC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31CDCCCC1DEE6A9F00762BC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6271129863EE2A3D3ED90D1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-realmExcise/Pods-realmExcise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77B07CD5C40E55696ED38FC4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-realmExcise/Pods-realmExcise-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B91FA3E021E2864C0229863F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-realmExcise-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31CDCCA61DEE6A9F00762BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31CDCCE81DEEC71C00762BC3 /* manModel.m in Sources */,
+				31CDCCE21DEE7DE800762BC3 /* PersonModel.m in Sources */,
+				31CDCCB51DEE6A9F00762BC3 /* ViewController.m in Sources */,
+				31CDCCB21DEE6A9F00762BC3 /* AppDelegate.m in Sources */,
+				4C2C61D61FA9C99D0027D307 /* DataBaseTool.m in Sources */,
+				31CDCCAF1DEE6A9F00762BC3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31CDCCBF1DEE6A9F00762BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31CDCCC81DEE6A9F00762BC3 /* realmExciseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31CDCCCA1DEE6A9F00762BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31CDCCD31DEE6A9F00762BC3 /* realmExciseUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31CDCCC51DEE6A9F00762BC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31CDCCA91DEE6A9F00762BC3 /* realmExcise */;
+			targetProxy = 31CDCCC41DEE6A9F00762BC3 /* PBXContainerItemProxy */;
+		};
+		31CDCCD01DEE6A9F00762BC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31CDCCA91DEE6A9F00762BC3 /* realmExcise */;
+			targetProxy = 31CDCCCF1DEE6A9F00762BC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31CDCCB61DEE6A9F00762BC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31CDCCB71DEE6A9F00762BC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31CDCCBB1DEE6A9F00762BC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31CDCCBC1DEE6A9F00762BC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31CDCCD51DEE6A9F00762BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31CDCCD61DEE6A9F00762BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31CDCCD81DEE6A9F00762BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A12135911C002F19B6C6EE50 /* Pods-realmExcise.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7R27LC3TJ9;
+				INFOPLIST_FILE = realmExcise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangzhijie.realmExcise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31CDCCD91DEE6A9F00762BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 937242B270D55934D5B798ED /* Pods-realmExcise.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7R27LC3TJ9;
+				INFOPLIST_FILE = realmExcise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangzhijie.realmExcise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		31CDCCDB1DEE6A9F00762BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7R27LC3TJ9;
+				INFOPLIST_FILE = realmExciseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangzhijie.realmExciseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/realmExcise.app/realmExcise";
+			};
+			name = Debug;
+		};
+		31CDCCDC1DEE6A9F00762BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7R27LC3TJ9;
+				INFOPLIST_FILE = realmExciseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangzhijie.realmExciseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/realmExcise.app/realmExcise";
+			};
+			name = Release;
+		};
+		31CDCCDE1DEE6A9F00762BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7R27LC3TJ9;
+				INFOPLIST_FILE = realmExciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangzhijie.realmExciseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = realmExcise;
+			};
+			name = Debug;
+		};
+		31CDCCDF1DEE6A9F00762BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7R27LC3TJ9;
+				INFOPLIST_FILE = realmExciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangzhijie.realmExciseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = realmExcise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31CDCCA51DEE6A9F00762BC3 /* Build configuration list for PBXProject "realmExcise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31CDCCD51DEE6A9F00762BC3 /* Debug */,
+				31CDCCD61DEE6A9F00762BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31CDCCD71DEE6A9F00762BC3 /* Build configuration list for PBXNativeTarget "realmExcise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31CDCCD81DEE6A9F00762BC3 /* Debug */,
+				31CDCCD91DEE6A9F00762BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31CDCCDA1DEE6A9F00762BC3 /* Build configuration list for PBXNativeTarget "realmExciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31CDCCDB1DEE6A9F00762BC3 /* Debug */,
+				31CDCCDC1DEE6A9F00762BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31CDCCDD1DEE6A9F00762BC3 /* Build configuration list for PBXNativeTarget "realmExciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31CDCCDE1DEE6A9F00762BC3 /* Debug */,
+				31CDCCDF1DEE6A9F00762BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31CDCCA21DEE6A9F00762BC3 /* Project object */;
+}
